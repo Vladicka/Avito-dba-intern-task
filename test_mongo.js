@@ -20,17 +20,6 @@ var test = function(){
 		res = 'False'
 	}
 
-	//cursor=db.users.find({ first_name: 'Rin' })
-	//obj=JSON.stringify(tojson(cursor.next()))
-	//print(obj)
-	//jsonobj=JSON.parse(obj)
-	//print (typeof jsonobj)
-	//print(jsonobj["first_name"])
-	//if (tojson(cursor.next())["first_name"] != 'Rin'){
-		//res = 'False'
-		//print(res)
-	//}
-
 	object=db.users.drop()
 	if (object != true){
 		res = 'False'
